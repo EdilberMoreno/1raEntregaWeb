@@ -94,7 +94,7 @@ html{
     position: relative;
 }
 
-/* Pseudo-elemento para el efecto de relleno */
+
 .redes a::before {
     content: '';
     position: absolute;
@@ -106,7 +106,7 @@ html{
     z-index: 1;
 }
 
-/* Efectos específicos para cada red social */
+
 #Fb::before {
     background-color: #3b5999;
 }
@@ -128,7 +128,7 @@ html{
     height: 100%;
 }
 
-/* Al pasar el cursor, el ícono cambia */
+
 .redes a:hover i {
     color: #000000;
 }
